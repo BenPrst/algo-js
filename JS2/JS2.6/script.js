@@ -1,10 +1,17 @@
-let i = 0;
+let day = Number(prompt("Enter a number from 1 to 7"))
 
-while (i <= 100) {
-  if (i % 2 == 0) {
-    console.log(i / 2);
-  } else {
-    console.log(i * 3);
-  }
-  i += 1;
-}
+if (day === 1){
+    console.log("Monday")
+} else if (day === 2){
+    console.log("Tuesday")
+} else if (day === 3){
+    console.log("Wednesday")
+} else if (day === 4){
+    console.log("Thursday")
+} else if (day === 5){
+    console.log("Friday")
+} else if (day === 6){
+    console.log("Saturtday")
+} else if (day === 7){
+    console.log("Sunday")
+}else console.log("Not between 1 and 7")
